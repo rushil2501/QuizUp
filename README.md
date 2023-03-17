@@ -7,17 +7,17 @@ This application features a responsive and modern user interface that provides a
 
 Features:
 
-1. User authentication and authorization for creating and taking quizzes
+1. User authentication and authorization for creating and taking quizzes.
 
-2.Dynamic and responsive interface using React.js
+2. Dynamic and responsive interface using React.js.
 
-3. Real-time data synchronization with MongoDB and Mongoose.js
+3. Real-time data synchronization with MongoDB and Mongoose.js.
 
-4. API endpoints using Node.js and Express.js
+4. API endpoints using Node.js and Express.js.
 
-5. Error handling and validation for user inputs
+5. Error handling and validation for user inputs.
 
-6. Mobile-friendly design for a smooth user experience on all devices
+6. Mobile-friendly design for a smooth user experience on all devices.
 
 Getting Started:
 
