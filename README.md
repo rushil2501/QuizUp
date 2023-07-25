@@ -1,7 +1,7 @@
 # QuizUp - A Full-Stack MCQ Quiz Application
 Description:
 
-Welcome to QuizUp, a full-stack MERN application that enables users to create and take multiple-choice quizzes. With Quizzy, you can create a quiz, set the number of questions, and add multiple-choice answers for each question. Users can then take the quiz and receive their scores upon completion.
+Welcome to QuizUp, a full-stack MERN application that enables users to create and take multiple-choice quizzes. With QuizUp, you can create a quiz, set the number of questions, and add multiple-choice answers for each question. Users can then take the quiz and receive their scores upon completion.
 
 This application features a responsive and modern user interface that provides a seamless experience for both the quiz taker and the quiz creator. The app uses the MERN stack - MongoDB, Express, React, and Node.js - to provide a powerful and robust framework for building full-stack applications.
 
