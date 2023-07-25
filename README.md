@@ -16,7 +16,7 @@ Features:
 
 Getting Started:
 
-To get started with Quizzy, simply clone this repository to your local machine and follow the instructions below in the README file to install and run the application. The file provides a detailed guide on how to install all necessary dependencies and how to start both the client and server versions of the app.
+To get started with QuizUp, simply clone this repository to your local machine and follow the instructions below in the README file to install and run the application. The file provides a detailed guide on how to install all necessary dependencies and how to start both the client and server versions of the app.
 
 Getting Started:
 1. Clone the Repository to your local Machine
