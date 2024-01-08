@@ -11,7 +11,15 @@ const app = express()
 
 app.use(morgan('tiny'));
 app.use(cors(
+<<<<<<< HEAD
     
+=======
+    {
+        origin: ["https://quiz-up-dep.vercel.app/"],
+        methods: ["POST","GET"],
+        credentials: true
+    }
+>>>>>>> 8271db416a27ba9460ad1ec6ca2ff63a1b751c39
 ))
 app.use(express.json())
 config();
