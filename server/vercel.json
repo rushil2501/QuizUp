@@ -1,5 +1,5 @@
 {
-    "builds":[
+    "rewrites":[
         {"src":"*.js","use":"@vercel/node"}
     ],
     "routes":[
