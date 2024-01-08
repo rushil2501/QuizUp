@@ -14,7 +14,7 @@ export default function Questions({onChecked}) {
     // useSelector(state => console.log(state))
     // const trace = useSelector(state => state.questions.trace)
     // const a = data[0]
-    useSelector(state=> (state))
+    // useSelector(state=> (state))
     const questions = useSelector(state => state.questions.queue[state.questions.trace])
     const dispatch = useDispatch()
     useEffect(()=>{    
@@ -45,7 +45,7 @@ export default function Questions({onChecked}) {
                         />
 
                         <label className='text-primary' htmlFor={`q${i}-option`}>{q}</label>
-                        <div className= {`check ${result[trace]==i?'checked':''}`}></div>
+                        <div className= {`check ${result[trace]===i?'checked':''}`}></div>
                     </li>
             ))
             }
