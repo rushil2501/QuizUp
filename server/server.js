@@ -12,7 +12,7 @@ const app = express()
 app.use(morgan('tiny'));
 app.use(cors(
     {
-        origin: ["https://quiz-up-gray.vercel.app/"],
+        origin: ["https://quiz-up-dep.vercel.app/"],
         methods: ["POST","GET"],
         credentials: true
     }
