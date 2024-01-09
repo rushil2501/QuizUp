@@ -45,6 +45,7 @@ export default function Quiz() {
       return <Navigate to={'/result'} replace={true}></Navigate>
     }
 
+    console.log("cpt2")
 
   return (
     <div className='container'>
