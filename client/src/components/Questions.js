@@ -35,7 +35,7 @@ export default function Questions({onChecked}) {
         <h2 className='text-light'> {questions?.question}</h2> 
         <ul key={questions?.id}>
             {
-            questions?.options.map((q,i) => <p>(
+            questions?.options.map((q,i) => <div>(
                 <li key ={i}>
                         <input 
                             type="radio"
@@ -48,7 +48,7 @@ export default function Questions({onChecked}) {
                         <label className='text-primary' htmlFor={`q${i}-option`}>{q}</label>
                         <div className= {`check ${result[trace]===i?'checked':''}`}></div>
                     </li>
-            )</p>)
+            )</div>)
             }
         </ul>
       
