@@ -28,14 +28,14 @@ export default function Questions({onChecked}) {
     }
     if(isLoading)return <h3 className='text-light'>isLoading</h3>
     if(serverError)return <h3 className='text-light'>{serverError || "Unknown Error"}</h3>
-    console.log("hello",questions?.question)
+    console.log("cpt3",questions?.question)
     return (
     
     <div className='questions'>
         <h2 className='text-light'> {questions?.question}</h2> 
         <ul key={questions?.id}>
             {
-            questions?.options.map((q,i) =>(
+            questions?.options.map((q,i) => (
                 <li key ={i}>
                         <input 
                             type="radio"
@@ -48,7 +48,7 @@ export default function Questions({onChecked}) {
                         <label className='text-primary' htmlFor={`q${i}-option`}>{q}</label>
                         <div className= {`check ${result[trace]===i?'checked':''}`}></div>
                     </li>
-            ))
+            ) )
             }
         </ul>
       

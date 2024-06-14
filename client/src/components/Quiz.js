@@ -7,6 +7,7 @@ import {useSelector,useDispatch} from 'react-redux'
 import { PushAnswer } from '../hooks/setResult';
 import { Navigate } from 'react-router-dom'
 export default function Quiz() {
+    console.log("quiz page called")
     const [check, setChecked] = useState(undefined)
     const result = useSelector(state => state.result.result);
     // const trace = useSelector(state => state.questions.trace);
@@ -44,6 +45,7 @@ export default function Quiz() {
       return <Navigate to={'/result'} replace={true}></Navigate>
     }
 
+    console.log("cpt2")
 
   return (
     <div className='container'>
